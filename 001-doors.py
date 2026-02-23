@@ -6,7 +6,7 @@ def toggle_doors(num_doors):
     # Toggle the state of the doors according to the rules
     for i in range(1, num_doors + 1):
         for j in range(i - 1, num_doors, i):
-            doors[j] = not doors[j]
+             doors[j] = not doors[j]
 
     # Collect the numbers of the open doors
     open_doors = [index + 1 for index, state in enumerate(doors) if state]
