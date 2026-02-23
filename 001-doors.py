@@ -13,3 +13,4 @@ def toggle_doors(num_doors):
     
     return open_doors
 print(toggle_doors(100))
+# Test
